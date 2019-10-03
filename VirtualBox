@@ -1,0 +1,13 @@
+Utilización de VirtualBox para el proyecto.
+
+VIRTUALBOX:
+Para la realización de Grid se decide utilizar la tecnología ofrecida por VirtualBox ya que dispone de una versión gratuita de manera 
+funcional y la disponibilidad para varios sistemas operativos debido a su virtualización. El ambiente propuesto para el Grid virtual 
+está contemplado con tres máquinas virtuales, las cuales estarán organizadas de la siguiente manera: La máquina principal y dos máquinas dependientes.
+Las especificaciones para cada una de las maquinas se contempla entre 2GB de RAM y entre 8 y 10GB libres en el disco duro. 
+La máquina principal se encontrará sujeta a una arquitectura en capas, la cual tendrá contemplada el manejo de los usuarios 
+donde se tendrá control y gestión del Grid, al igual que gestionar el resto de trabajos presentados. Las máquinas virtuales dependientes
+serán las encargadas del procesamiento del resto de información, los cuales estarán configurados por medio de un puente hacia la red 
+exterior y el otro hasta el VirtualBox.
+Todo esto permite la respectiva interacción en Grid de manera virtual sin dañar la red de la maquina física, 
+esta organización es versátil y permite la integración de nuevas máquinas sin ser necesaria la virtualización de ellas.
